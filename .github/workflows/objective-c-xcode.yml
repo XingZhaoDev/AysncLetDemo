@@ -23,4 +23,4 @@ jobs:
       - name: Build
         env:
           scheme: ${{ 'default' }}
-        run: xcodebuild -project "AysncLetDemo.xcodeproj" -destination "generic/platform-iOS" -configuration Release build CODE_SIGNING_ALLOWED=NO
+        run: xcodebuild -project "AysncLetDemo.xcodeproj" -configuration Release build CODE_SIGNING_ALLOWED=NO
